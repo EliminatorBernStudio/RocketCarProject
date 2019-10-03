@@ -11,12 +11,12 @@ public class PlayerInputController : MonoBehaviour
     public string Right;
     public string Down;
 
-    private autocontroller _AutoController;
+    private AutoController _AutoController;
 
     // Start is called before the first frame update
     void Start()
     {
-        _AutoController = Car.GetComponent<autocontroller>();
+        _AutoController = Car.GetComponent<AutoController>();
     }
     // Update is called once per frame
     void Update()
