@@ -38,8 +38,8 @@ public class autocontroller : MonoBehaviour
 
         if (Left)
         {
-            //Car.transform.Rotate(0, Time.deltaTime + -DistanceToTravel, 0, Space.Self);
-           
+            Car.transform.Rotate(0, Time.deltaTime + -DistanceToTravel, 0, Space.Self);
+            Debug.Log("Hallo");
         }
 
         if (Right)
